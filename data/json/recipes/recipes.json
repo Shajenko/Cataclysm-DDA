@@ -14613,6 +14613,42 @@
   ]
 },{
         "type" : "recipe",
+  "result": "recharge_port",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_PARTS",
+  "skill_used": "electronics",
+  "difficulty": 5,
+  "time": 2000,
+  "reversible": true,
+  "decomp_learn": 3,
+  "autolearn": false,
+  "book_learn": [["textbook_mechanics", 5] , ["textbook_electronics", 4] , ["advanced_electronics", 4] , ["textbook_robots", 4]],
+  "tools": [
+    [
+      [ "screwdriver", -1 ],
+      [ "toolset", -1 ]
+    ],
+    [
+      [ "soldering_iron", 25 ],
+      [ "toolset", 1 ]
+    ]
+  ],
+  "components": [
+    [
+      [ "power_supply", 1 ]
+    ],
+    [
+      [ "processor", 1 ]
+    ],
+    [
+      [ "scrap", 3 ]
+    ],
+    [
+      [ "cable", 8 ]
+    ]
+  ]
+},{
+        "type" : "recipe",
   "result": "solar_panel",
   "category": "CC_OTHER",
   "subcategory": "CSC_OTHER_PARTS",

@@ -827,5 +827,22 @@
         "cutting": 0,
         "category" : "veh_parts",
         "price": 90000
+    },
+    {
+        "type":"GENERIC",
+        "id": "recharge_port",
+        "name": "recharging port",
+        "description": "A charging system including attached cable designed transfer power from one vehicle to another. While activated, it will transfer electrical power from the installed vehicle to one adjacent vehicle.",
+        "weight": 100,
+        "to_hit": 1,
+        "color": "light_blue",
+        "symbol": "=",
+        "material": ["steel", "plastic"],
+        "volume": 2,
+        "bashing": 5,
+        "cutting": 0,
+        "category" : "veh_parts",
+        "price": 20000
     }
+
 ]

@@ -3394,5 +3394,25 @@
             {"item": "scrap", "min": 1, "max": 2},
             {"item": "cable", "min": 1, "max": 3}
         ]
+    },{
+            "type" : "vehicle_part",
+        "id" : "recharge_port",
+        "name" : "recharging port",
+        "symbol" : "=",
+        "color" : "light_green",
+        "broken_symbol" : "/",
+        "broken_color" : "blue",
+        "damage_modifier" : 10,
+        "durability" : 20,
+        "epower" : -1,
+        "bonus" : 25,
+        "item" : "recharge_port",
+        "difficulty" : 2,
+        "flags" : ["RECHARGE"],
+        "breaks_into" : [
+            {"item": "steel_chunk", "min": 0, "max": 1},
+            {"item": "scrap", "min": 0, "max": 1},
+            {"item": "cable", "min": 1, "max": 3}
+        ]
     }
 ]
